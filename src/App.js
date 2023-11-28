@@ -9,7 +9,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-    //Main app
   return (
     <div className="App">
       <Navbar />
