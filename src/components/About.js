@@ -38,7 +38,8 @@ const About = () => {
 
         Looking to work with people smarter than me, learn from them and add value to people's lives. <br /><br />
 
-        In my free time, I play chess, watch some Youtube and think about life, because why not?
+        In my free time, I play chess, watch some Youtube and think about life, because why not?<br /><br />
+        P.S: I use Neovim btw
                 </p>
             </div>
 
