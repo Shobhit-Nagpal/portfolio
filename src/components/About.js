@@ -32,11 +32,11 @@ const About = () => {
         <div className="about">
             <div className="about_info">
                 <h1><span>01. </span>About</h1> <br/>
-                <p>Hey! I'm Shobhit (you probably knew that though). I develop stuff that I think is cool or to pursue my curiosity.<br />
+                <p>Hey! I'm Shobhit (you probably knew that though). I develop stuff that I think is cool or to pursue my curiosity.<br /><br />
 
         I'm a fullstack MERN web dev, now also exploring tech like Quantum computing, Blockchain and AR/VR. Also working with Go and looking to make cool CLI tools.
 
-        Looking to work with people smarter than me, learn from them and add value to people's lives. <br />
+        Looking to work with people smarter than me, learn from them and add value to people's lives. <br /><br />
 
         In my free time, I play chess, watch some Youtube and think about life, because why not?
                 </p>
