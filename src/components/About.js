@@ -32,15 +32,14 @@ const About = () => {
         <div className="about">
             <div className="about_info">
                 <h1><span>01. </span>About</h1> <br/>
-                <p>Hey! I'm Shobhit (you probably knew that though). I develop stuff that I think is cool or to pursue my curiosity.<br /><br />
+                <p>Hey! I'm Shobhit (you probably knew that though). I’m all about creating stuff that I find cool or that sparks my curiosity.<br /> <br />
 
-        I'm a fullstack MERN web dev, now also exploring tech like Quantum computing, Blockchain and AR/VR. Also working with Go and looking to make cool CLI tools.
+        I’m a fullstack MERN web dev by day, and by night, I dive into the worlds of Quantum computing, Blockchain, and AR/VR. Currently, I'm getting my hands dirty with Go and aiming to craft some nifty CLI tools. I’m on the lookout to team up with people smarter than me to learn a bunch and hopefully add some value to people’s lives along the way. <br /> <br />
 
-        Looking to work with people smarter than me, learn from them and add value to people's lives. <br /><br />
+        In my free time, I’m usually found playing chess, watching some Youtube, or just pondering life, because why not?<br /> <br />
 
-        In my free time, I play chess, watch some Youtube and think about life, because why not?<br /><br />
-        P.S: I use Neovim btw
-                </p>
+        P.S: I use Neovim, by the way.
+        </p>
             </div>
 
             <div className="about_skills_carousel">
