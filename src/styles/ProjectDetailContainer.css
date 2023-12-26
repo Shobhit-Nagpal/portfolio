@@ -33,6 +33,21 @@
     cursor: pointer;
 }
 
+.project_website_btn:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    cursor: pointer;
+    scale: 1.15;
+    transition-duration: 0.25s;
+}
+
 .project_src_code_btn {
     background-color: var(--project-bg-color);
     font-weight: bold;
@@ -43,6 +58,21 @@
     padding: 1rem;
     margin: 1rem 1rem;
     cursor: pointer;
+}
+
+
+.project_src_code_btn:hover {
+    background-color: var(--project-bg-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    scale: 1.15;
+    transition-duration: 0.25s;
 }
 
 .project a {
