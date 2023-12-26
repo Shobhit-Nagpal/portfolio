@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d1126af5.css",
-    "main.js": "/portfolio/static/js/main.9661b8e7.js",
+    "main.css": "/portfolio/static/css/main.f86ab609.css",
+    "main.js": "/portfolio/static/js/main.b19ed9af.js",
     "static/media/interpreter.png": "/portfolio/static/media/interpreter.5de1b8240d7b954a0282.png",
     "static/media/weather-app.png": "/portfolio/static/media/weather-app.8843d77ed719c45275a4.png",
     "static/media/memory-card.png": "/portfolio/static/media/memory-card.7fe58722643848e6555a.png",
@@ -9,16 +9,16 @@
     "static/media/tag.png": "/portfolio/static/media/tag.eabcfab63245b5fd35fc.png",
     "static/media/blog.png": "/portfolio/static/media/blog.6989960d363abc2aa09f.png",
     "static/media/palettepix.png": "/portfolio/static/media/palettepix.4fd95ab2b6797ac5ba55.png",
-    "static/media/shobhit.png": "/portfolio/static/media/shobhit.fa1c43bb185e1cf7f6c1.png",
+    "static/media/shobhit.png": "/portfolio/static/media/shobhit.ca5148bc7fbf88bf20c9.png",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.d1126af5.css.map": "/portfolio/static/css/main.d1126af5.css.map",
-    "main.9661b8e7.js.map": "/portfolio/static/js/main.9661b8e7.js.map"
+    "main.f86ab609.css.map": "/portfolio/static/css/main.f86ab609.css.map",
+    "main.b19ed9af.js.map": "/portfolio/static/js/main.b19ed9af.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1126af5.css",
-    "static/js/main.9661b8e7.js"
+    "static/css/main.f86ab609.css",
+    "static/js/main.b19ed9af.js"
   ]
 }
