@@ -100,6 +100,10 @@
     .project_info {
         text-align: center;
     }
+
+    .project_website_btn:hover {
+
+    }
 }
 
 @media screen and (max-width: 500px) {
