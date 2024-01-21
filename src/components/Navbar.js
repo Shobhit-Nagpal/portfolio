@@ -7,8 +7,8 @@ import CloseIcon from '@mui/icons-material/Close';
 const Menu = () => {
     return (
         <>
-            <p><a href="#home">Home</a></p>
             <p><a href="#projects">Projects</a></p>
+            <p><a href="https://blogv2-frontend.vercel.app/">Blog</a></p>
             <p><a href="#contact">Contact</a></p>
         </>
     )

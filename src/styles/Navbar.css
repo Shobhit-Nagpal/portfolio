@@ -28,9 +28,6 @@
     font-size: 1.5rem;
 }
 
-.navbar_links p > a:hover {
-    color: var(--primary-color);
-}
 
 .navbar_close {
     color: #ffffff;
@@ -68,6 +65,10 @@
 .navbar_links p > a,.navbar_links p > a:visited,  .navbar_menu_container p > a, .navbar_menu_container p > a:visited {
     text-decoration: none;
     color: var(--white-color);
+}
+
+.navbar_links p > a:hover {
+    color: var(--primary-color);
 }
 
 @media screen and (max-width: 900px) {
