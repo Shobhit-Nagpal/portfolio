@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f85b99fe.css",
-    "main.js": "/portfolio/static/js/main.09f64a52.js",
-    "static/media/js-lexer.png": "/portfolio/static/media/js-lexer.b7295822028ad0581a56.png",
-    "static/media/frmt.png": "/portfolio/static/media/frmt.4a5dd7b2c1cff4087995.png",
-    "static/media/interpreter.png": "/portfolio/static/media/interpreter.5de1b8240d7b954a0282.png",
-    "static/media/weather-app.png": "/portfolio/static/media/weather-app.8843d77ed719c45275a4.png",
-    "static/media/memory-card.png": "/portfolio/static/media/memory-card.7fe58722643848e6555a.png",
-    "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.55bc4068917f4ea172de.png",
-    "static/media/tag.png": "/portfolio/static/media/tag.eabcfab63245b5fd35fc.png",
-    "static/media/blog.png": "/portfolio/static/media/blog.6989960d363abc2aa09f.png",
-    "static/media/palettepix.png": "/portfolio/static/media/palettepix.4fd95ab2b6797ac5ba55.png",
-    "static/media/shobhit.png": "/portfolio/static/media/shobhit.ca5148bc7fbf88bf20c9.png",
-    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/portfolio/index.html",
-    "main.f85b99fe.css.map": "/portfolio/static/css/main.f85b99fe.css.map",
-    "main.09f64a52.js.map": "/portfolio/static/js/main.09f64a52.js.map"
+    "main.css": "/static/css/main.a485fa32.css",
+    "main.js": "/static/js/main.2d94c9fb.js",
+    "static/media/js-lexer.png": "/static/media/js-lexer.b7295822028ad0581a56.png",
+    "static/media/frmt.png": "/static/media/frmt.4a5dd7b2c1cff4087995.png",
+    "static/media/interpreter.png": "/static/media/interpreter.5de1b8240d7b954a0282.png",
+    "static/media/weather-app.png": "/static/media/weather-app.8843d77ed719c45275a4.png",
+    "static/media/memory-card.png": "/static/media/memory-card.7fe58722643848e6555a.png",
+    "static/media/youtube-clone.png": "/static/media/youtube-clone.55bc4068917f4ea172de.png",
+    "static/media/tag.png": "/static/media/tag.eabcfab63245b5fd35fc.png",
+    "static/media/blog.png": "/static/media/blog.6989960d363abc2aa09f.png",
+    "static/media/palettepix.png": "/static/media/palettepix.4fd95ab2b6797ac5ba55.png",
+    "static/media/shobhit.png": "/static/media/shobhit.ca5148bc7fbf88bf20c9.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.a485fa32.css.map": "/static/css/main.a485fa32.css.map",
+    "main.2d94c9fb.js.map": "/static/js/main.2d94c9fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f85b99fe.css",
-    "static/js/main.09f64a52.js"
+    "static/css/main.a485fa32.css",
+    "static/js/main.2d94c9fb.js"
   ]
 }
