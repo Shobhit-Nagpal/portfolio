@@ -101,9 +101,6 @@
         text-align: center;
     }
 
-    .project_website_btn:hover {
-
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -116,5 +113,9 @@
 
     .project_info h2 {
         font-size: 1.5rem;
+    }
+
+    .project_img {
+      display: none;
     }
 }
