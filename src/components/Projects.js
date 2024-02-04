@@ -67,14 +67,6 @@ const Projects = () => {
         repo: "https://github.com/Shobhit-Nagpal/blogv2",
       },
       {
-        name: "Youtube Clone",
-        description:
-          "A Youtube clone using React, Rapid API, Firebase where a user can see the home feed, search for videos/channels and watch videos.",
-        img: youtubeCloneImg,
-        website: "https://youtube-clone-dusky-nine.vercel.app/",
-        repo: "https://github.com/Shobhit-Nagpal/youtube-clone",
-      },
-      {
         name: "Tag",
         description:
           "A photo tagging game where you have to find your favourite game characters. Made using React, React Router and Firebase",
