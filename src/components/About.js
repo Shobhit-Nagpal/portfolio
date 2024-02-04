@@ -4,8 +4,9 @@ import '../styles/index.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FaReact, FaHtml5, FaCss3, FaNpm } from "react-icons/fa";
-import { BiLogoNodejs, BiLogoFirebase, BiLogoGit, BiLogoMongodb, BiLogoDocker, BiLogoGoLang, BiLogoTailwindCss } from "react-icons/bi";
+import { BiLogoNodejs, BiLogoFirebase, BiLogoGit, BiLogoMongodb, BiLogoDocker, BiLogoGoLang, BiLogoTailwindCss, BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
+import { IoLogoVercel } from "react-icons/io5";
 
 const About = () => {
 
@@ -45,6 +46,8 @@ const About = () => {
             <div className="about_skills_carousel">
                 <div className="carousel-container">
                         <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={1500} removeArrowOnDeviceType={["tablet", "mobile"]} itemClass="carousel-item-padding-40-px" containerClass="carousel-container">
+                            <BiLogoJavascript />
+                            <BiLogoTypescript />
                             <FaReact />
                             <BiLogoNodejs />
                             <SiExpress />
@@ -57,6 +60,7 @@ const About = () => {
                             <BiLogoDocker />
                             <BiLogoGoLang />
                             <BiLogoTailwindCss /> 
+                            <IoLogoVercel />
                         </Carousel>
                     </div>
             </div>
