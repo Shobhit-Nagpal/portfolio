@@ -10,6 +10,11 @@
     color: var(--white-color);
 }
 
+.project_info {
+  max-width: 50%;
+  height: auto;
+}
+
 .project_info h2 {
     font-size: 2.5rem;
     margin: 1rem 0;
@@ -82,9 +87,11 @@
 
 .project_img {
     margin: 2rem 2rem;
+    max-width: 50%;
+    height: auto;
 }
 
-.project_img img{
+.project_img img {
     object-fit: cover;
     width: 100%;
     height: auto;
@@ -99,6 +106,11 @@
 
     .project_info {
         text-align: center;
+        max-width: 100%;
+    }
+
+    .project_img {
+      max-width: 100%;
     }
 
 }
