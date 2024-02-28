@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../styles/Projects.css";
 import "../styles/index.css";
 import ProjectDetailContainer from "./ProjectDetailContainer";
-import youtubeCloneImg from "../assets/youtube-clone.png";
 import tagImg from "../assets/tag.png";
 import memoryCardImg from "../assets/memory-card.png";
 import weatherAppImg from "../assets/weather-app.png";
@@ -97,7 +96,7 @@ const Projects = () => {
       <div className="projects_info">
         <h1>
           <span>02. </span>
-          <a id="projects" href="#">
+          <a id="projects" href="#projects">
             Projects
           </a>
         </h1>{" "}
