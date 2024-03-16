@@ -5,7 +5,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FaReact, FaHtml5, FaCss3, FaNpm } from "react-icons/fa";
 import { BiLogoNodejs, BiLogoFirebase, BiLogoGit, BiLogoMongodb, BiLogoDocker, BiLogoGoLang, BiLogoTailwindCss, BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
-import { SiExpress, SiSupabase } from "react-icons/si";
+import { SiExpress, SiSupabase, SiNeovim } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -52,6 +52,7 @@ const About = () => {
                             <FaReact />
                             <TbBrandNextjs />
                             <BiLogoNodejs />
+                            <SiNeovim />
                             <SiExpress />
                             <BiLogoMongodb />
                             <SiSupabase />
