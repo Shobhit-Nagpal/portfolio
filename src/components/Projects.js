@@ -11,6 +11,7 @@ import interpreterImg from "../assets/interpreter.png";
 import frmtImg from "../assets/frmt.png";
 import jsLexerImg from "../assets/js-lexer.png";
 import ezAccessImg from "../assets/ezAccess.png";
+import nvimRafceImg from "../assets/nvim-rafce.png";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -40,6 +41,14 @@ const Projects = () => {
         img: jsLexerImg,
         website: "https://www.npmjs.com/package/@shobhit-nagpal/js-lexer",
         repo: "https://github.com/Shobhit-Nagpal/js-lexer",
+      },
+      {
+        name: "Nvim-Rafce",
+        description:
+          'Nvim-Rafce is a Neovim plugin made in Lua to write boilerplate React component code with one command.',
+        img: nvimRafceImg,
+        website: "",
+        repo: "https://github.com/Shobhit-Nagpal/nvim-rafce",
       },
       {
         name: "Monkey interpreter",
