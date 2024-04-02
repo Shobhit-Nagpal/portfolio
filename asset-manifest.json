@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.746736f2.css",
-    "main.js": "/static/js/main.b553f08b.js",
+    "main.js": "/static/js/main.92c334f9.js",
     "static/media/js-lexer.png": "/static/media/js-lexer.b7295822028ad0581a56.png",
     "static/media/frmt.png": "/static/media/frmt.4a5dd7b2c1cff4087995.png",
     "static/media/interpreter.png": "/static/media/interpreter.5de1b8240d7b954a0282.png",
@@ -12,15 +12,16 @@
     "static/media/palettepix.png": "/static/media/palettepix.4fd95ab2b6797ac5ba55.png",
     "static/media/shobhit.png": "/static/media/shobhit.ca5148bc7fbf88bf20c9.png",
     "static/media/ezAccess.png": "/static/media/ezAccess.e89d7f881f25d6b16092.png",
+    "static/media/nvim-rafce.png": "/static/media/nvim-rafce.422a5812ebf2f2882f10.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.746736f2.css.map": "/static/css/main.746736f2.css.map",
-    "main.b553f08b.js.map": "/static/js/main.b553f08b.js.map"
+    "main.92c334f9.js.map": "/static/js/main.92c334f9.js.map"
   },
   "entrypoints": [
     "static/css/main.746736f2.css",
-    "static/js/main.b553f08b.js"
+    "static/js/main.92c334f9.js"
   ]
 }
