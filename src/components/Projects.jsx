@@ -71,7 +71,7 @@ const Projects = () => {
         description:
           "A blog for personal thoughts, made using MERN stack. Blogs inspired from Inner Monologue.",
         img: blogImg,
-        website: "https://blogv2-frontend.vercel.app/",
+        website: "https://blog.shobhitnagpal.com/",
         repo: "https://github.com/Shobhit-Nagpal/blogv2",
       },
       {
