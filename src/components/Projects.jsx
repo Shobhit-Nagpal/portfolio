@@ -4,7 +4,6 @@ import "../styles/index.css";
 import ProjectDetailContainer from "./ProjectDetailContainer";
 import tagImg from "../assets/tag.png";
 import memoryCardImg from "../assets/memory-card.png";
-import weatherAppImg from "../assets/weather-app.png";
 import palettePixImg from "../assets/palettepix.png";
 import blogImg from "../assets/blog.png";
 import interpreterImg from "../assets/interpreter.png";
@@ -12,6 +11,7 @@ import frmtImg from "../assets/frmt.png";
 import jsLexerImg from "../assets/js-lexer.png";
 import ezAccessImg from "../assets/ezAccess.png";
 import nvimRafceImg from "../assets/nvim-rafce.png";
+import statgenImg from "../assets/statgen.png";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -35,20 +35,28 @@ const Projects = () => {
         repo: "https://github.com/Shobhit-Nagpal/frmt",
       },
       {
+        name: "Statgen",
+        description:
+          "A static site generator for converting markdown to HTML, rewritten in Golang.",
+        img: statgenImg,
+        website: "",
+        repo: "https://github.com/Shobhit-Nagpal/statgen",
+      },
+      {
+        name: "Nvim-Rafce",
+        description:
+        'Nvim-Rafce is a Neovim plugin made in Lua to write boilerplate React component code with one command.',
+        img: nvimRafceImg,
+        website: "",
+        repo: "https://github.com/Shobhit-Nagpal/nvim-rafce",
+      },
+      {
         name: "JS-Lexer",
         description:
           'JS-Lexer is inspired from making a Monkey interpreter in Go by reading "Writing an Interpreter in Go" by Thorsten Ball. Published as an npm package.',
         img: jsLexerImg,
         website: "https://www.npmjs.com/package/@shobhit-nagpal/js-lexer",
         repo: "https://github.com/Shobhit-Nagpal/js-lexer",
-      },
-      {
-        name: "Nvim-Rafce",
-        description:
-          'Nvim-Rafce is a Neovim plugin made in Lua to write boilerplate React component code with one command.',
-        img: nvimRafceImg,
-        website: "",
-        repo: "https://github.com/Shobhit-Nagpal/nvim-rafce",
       },
       {
         name: "Monkey interpreter",
@@ -69,7 +77,7 @@ const Projects = () => {
       {
         name: "Personal Blog",
         description:
-          "A blog for personal thoughts, made using MERN stack. Blogs inspired from Inner Monologue.",
+          "A blog for personal thoughts, made using MERN stack, hosted on Vercel.",
         img: blogImg,
         website: "https://blog.shobhitnagpal.com/",
         repo: "https://github.com/Shobhit-Nagpal/blogv2",
@@ -89,14 +97,6 @@ const Projects = () => {
         img: memoryCardImg,
         website: "https://shobhit-nagpal.github.io/memory-card/",
         repo: "https://github.com/Shobhit-Nagpal/memory-card",
-      },
-      {
-        name: "Weather app",
-        description:
-          "A weather app which pulls data from OpenWeather API and displays the weather of searched location. Made using HTML, CSS and Javascript.",
-        img: weatherAppImg,
-        website: "https://shobhit-nagpal.github.io/weather-app/",
-        repo: "https://github.com/Shobhit-Nagpal/weather-app",
       },
     ]);
   }, []);
