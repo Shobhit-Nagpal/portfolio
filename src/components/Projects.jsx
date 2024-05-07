@@ -6,9 +6,8 @@ import tagImg from "../assets/tag.png";
 import memoryCardImg from "../assets/memory-card.png";
 import palettePixImg from "../assets/palettepix.png";
 import blogImg from "../assets/blog.png";
-import interpreterImg from "../assets/interpreter.png";
 import frmtImg from "../assets/frmt.png";
-import jsLexerImg from "../assets/js-lexer.png";
+import marksmithImg from "../assets/marksmith.png";
 import ezAccessImg from "../assets/ezAccess.png";
 import nvimRafceImg from "../assets/nvim-rafce.png";
 import statgenImg from "../assets/statgen.png";
@@ -27,12 +26,12 @@ const Projects = () => {
         repo: "https://github.com/Shobhit-Nagpal/palettepix",
       },
       {
-        name: "Frmt",
+        name: "Marksmith",
         description:
-          "Frmt is a CLI tool written in Golang to convert file formats from your CLI.",
-        img: frmtImg,
-        website: "",
-        repo: "https://github.com/Shobhit-Nagpal/frmt",
+        'Marksmith is a npm library to convert Markdown strings to HTML, written in TypeScript.',
+        img: marksmithImg,
+        website: "https://www.npmjs.com/package/@shobhit-nagpal/marksmith",
+        repo: "https://github.com/Shobhit-Nagpal/marksmith",
       },
       {
         name: "Statgen",
@@ -51,20 +50,12 @@ const Projects = () => {
         repo: "https://github.com/Shobhit-Nagpal/nvim-rafce",
       },
       {
-        name: "JS-Lexer",
+        name: "Frmt",
         description:
-          'JS-Lexer is inspired from making a Monkey interpreter in Go by reading "Writing an Interpreter in Go" by Thorsten Ball. Published as an npm package.',
-        img: jsLexerImg,
-        website: "https://www.npmjs.com/package/@shobhit-nagpal/js-lexer",
-        repo: "https://github.com/Shobhit-Nagpal/js-lexer",
-      },
-      {
-        name: "Monkey interpreter",
-        description:
-          "An interpreter for Monkey language. Built by reading Writing an Interpreter in Go.",
-        img: interpreterImg,
+          "Frmt is a CLI tool written in Golang to convert file formats from your CLI.",
+        img: frmtImg,
         website: "",
-        repo: "https://github.com/Shobhit-Nagpal/monkey-interpreter",
+        repo: "https://github.com/Shobhit-Nagpal/frmt",
       },
       {
         name: "EZAccess",
