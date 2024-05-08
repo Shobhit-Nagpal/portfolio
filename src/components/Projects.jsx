@@ -30,7 +30,7 @@ const Projects = () => {
         description:
         'Marksmith is a npm library to convert Markdown strings to HTML, written in TypeScript.',
         img: marksmithImg,
-        website: "https://www.npmjs.com/package/@shobhit-nagpal/marksmith",
+        website: "https://www.npmjs.com/package/marksmithjs",
         repo: "https://github.com/Shobhit-Nagpal/marksmith",
       },
       {
