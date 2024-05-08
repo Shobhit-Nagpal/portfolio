@@ -7,7 +7,7 @@ import memoryCardImg from "../assets/memory-card.png";
 import palettePixImg from "../assets/palettepix.png";
 import blogImg from "../assets/blog.png";
 import frmtImg from "../assets/frmt.png";
-import marksmithImg from "../assets/marksmith.png";
+import marksmithImg from "../assets/marksmithjs.png";
 import ezAccessImg from "../assets/ezAccess.png";
 import nvimRafceImg from "../assets/nvim-rafce.png";
 import statgenImg from "../assets/statgen.png";
