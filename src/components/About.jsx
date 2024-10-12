@@ -15,7 +15,7 @@ import {
   BiLogoTypescript,
   BiLogoJavascript,
 } from "react-icons/bi";
-import { SiExpress, SiSupabase, SiNeovim } from "react-icons/si";
+import { SiExpress, SiSupabase, SiNeovim, SiPrisma, SiGooglecloud, SiChakraui } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -64,7 +64,7 @@ const About = () => {
           pondering life, because why not?
         </p>
         <br />
-        <p>P.S: I use Neovim, by the way.</p>
+        <p>P.S: I use Neovim on Arch Linux, by the way.</p>
       </div>
 
       <div className="about_skills_carousel">
@@ -87,6 +87,9 @@ const About = () => {
             <SiExpress />
             <BiLogoMongodb />
             <SiSupabase />
+            <SiPrisma />
+            <SiGooglecloud />
+            <SiChakraui />
             <FaHtml5 />
             <FaCss3 />
             <FaNpm />
