@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.746736f2.css",
-    "main.js": "/static/js/main.25294ac5.js",
-    "static/media/frmt.png": "/static/media/frmt.4a5dd7b2c1cff4087995.png",
+    "main.js": "/static/js/main.3656a20e.js",
     "static/media/memer.png": "/static/media/memer.e93869cf3e0a86d76715.png",
     "static/media/statgen.png": "/static/media/statgen.1c0b6f6d0a08acfc7490.png",
     "static/media/blog.png": "/static/media/blog.6989960d363abc2aa09f.png",
@@ -12,16 +11,18 @@
     "static/media/gssoc-stats-gen.png": "/static/media/gssoc-stats-gen.989ef1475c274210ee71.png",
     "static/media/keymulate.png": "/static/media/keymulate.7c97ed599de08df5ab68.png",
     "static/media/ezAccess.png": "/static/media/ezAccess.e89d7f881f25d6b16092.png",
+    "static/media/pgn.png": "/static/media/pgn.9638f4b6c18ce22f958c.png",
     "static/media/nvim-rafce.png": "/static/media/nvim-rafce.422a5812ebf2f2882f10.png",
+    "static/media/freqli.png": "/static/media/freqli.2e5a1af6c2ba7864b1d6.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.746736f2.css.map": "/static/css/main.746736f2.css.map",
-    "main.25294ac5.js.map": "/static/js/main.25294ac5.js.map"
+    "main.3656a20e.js.map": "/static/js/main.3656a20e.js.map"
   },
   "entrypoints": [
     "static/css/main.746736f2.css",
-    "static/js/main.25294ac5.js"
+    "static/js/main.3656a20e.js"
   ]
 }
