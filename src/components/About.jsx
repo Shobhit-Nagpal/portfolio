@@ -3,7 +3,7 @@ import "../styles/About.css";
 import "../styles/index.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { FaReact, FaHtml5, FaCss3, FaNpm } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3, FaNpm, FaLinux } from "react-icons/fa";
 import {
   BiLogoNodejs,
   BiLogoFirebase,
@@ -14,6 +14,7 @@ import {
   BiLogoTailwindCss,
   BiLogoTypescript,
   BiLogoJavascript,
+  BiLogoPostgresql,
 } from "react-icons/bi";
 import { SiExpress, SiSupabase, SiNeovim, SiPrisma, SiGooglecloud, SiChakraui } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
@@ -84,8 +85,10 @@ const About = () => {
             <TbBrandNextjs />
             <BiLogoNodejs />
             <SiNeovim />
+            <FaLinux />
             <SiExpress />
             <BiLogoMongodb />
+            <BiLogoPostgresql />
             <SiSupabase />
             <SiPrisma />
             <SiGooglecloud />

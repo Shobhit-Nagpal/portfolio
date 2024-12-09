@@ -6,12 +6,13 @@ import memerImg from "../assets/memer.png";
 import gssocStatsGenImg from "../assets/gssoc-stats-gen.png";
 import palettePixImg from "../assets/palettepix.png";
 import blogImg from "../assets/blog.png";
-import frmtImg from "../assets/frmt.png";
+import freqliImg from "../assets/freqli.png";
 import marksmithImg from "../assets/marksmithjs.png";
 import ezAccessImg from "../assets/ezAccess.png";
 import nvimRafceImg from "../assets/nvim-rafce.png";
 import statgenImg from "../assets/statgen.png";
 import keymulateImg from "../assets/keymulate.png";
+import pgnImg from "../assets/pgn.png";
 
 const PROJECTS = [
   {
@@ -30,12 +31,21 @@ const PROJECTS = [
     repo: "https://github.com/Shobhit-Nagpal/gssoc-stats-gen",
   },
   {
-    name: "Marksmith",
+    name: "MarksmithJS",
     description:
       "Marksmith is a npm library to convert Markdown strings to HTML, written in TypeScript.",
     img: marksmithImg,
     website: "https://www.npmjs.com/package/marksmithjs",
     repo: "https://github.com/Shobhit-Nagpal/marksmith",
+  },
+  {
+    name: "EZAccess",
+    description:
+      "A browser extension to quickly access your details built with React and TypeScript.",
+    img: ezAccessImg,
+    website:
+      "https://chromewebstore.google.com/detail/ezaccess/ojpbcmkpgmfenjbaplkgonhlkgkmhbki?authuser=0&hl=en",
+    repo: "https://github.com/Shobhit-Nagpal/ezaccess",
   },
   {
     name: "Palette Pix",
@@ -61,21 +71,20 @@ const PROJECTS = [
     repo: "https://github.com/Shobhit-Nagpal/statgen",
   },
   {
+    name: "PGN",
+    description:
+      "A Go module for parsing and working with chess games in PGN (Portable Game Notation) format.",
+    img: pgnImg,
+    website: "https://pkg.go.dev/github.com/Shobhit-Nagpal/pgn",
+    repo: "https://github.com/Shobhit-Nagpal/pgn",
+  },
+  {
     name: "Personal Blog",
     description:
       "A blog for personal thoughts, made using MERN stack, hosted on Vercel.",
     img: blogImg,
     website: "https://blog.shobhitnagpal.com/",
     repo: "https://github.com/Shobhit-Nagpal/blogv2",
-  },
-  {
-    name: "EZAccess",
-    description:
-      "A browser extension to quickly access your details built with React and TypeScript.",
-    img: ezAccessImg,
-    website:
-      "https://chromewebstore.google.com/detail/ezaccess/ojpbcmkpgmfenjbaplkgonhlkgkmhbki?authuser=0&hl=en",
-    repo: "https://github.com/Shobhit-Nagpal/ezaccess",
   },
   {
     name: "Nvim-Rafce",
@@ -86,12 +95,12 @@ const PROJECTS = [
     repo: "https://github.com/Shobhit-Nagpal/nvim-rafce",
   },
   {
-    name: "Frmt",
+    name: "Freqli",
     description:
-      "Frmt is a CLI tool written in Golang to convert file formats from your CLI.",
-    img: frmtImg,
+      "Freqli is a CLI tool written in Golang to analyse frequency of commands in your shell.",
+    img: freqliImg,
     website: "",
-    repo: "https://github.com/Shobhit-Nagpal/frmt",
+    repo: "https://github.com/Shobhit-Nagpal/freqli",
   },
 ];
 
