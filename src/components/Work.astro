@@ -48,10 +48,11 @@ const formatDuration = (duration: WorkItem['duration']) => {
 <style>
   section {
     margin-top: 6rem;
+    padding: 0 1rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: clamp(1.75rem, 4vw, 2rem);
     color: #ffffff;
     margin-bottom: 2rem;
   }
@@ -61,21 +62,23 @@ const formatDuration = (duration: WorkItem['duration']) => {
     align-items: baseline;
     gap: 1rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
   }
 
   h3 {
     color: #e4e4e7;
-    font-size: 1.25rem;
+    font-size: clamp(1.1rem, 3vw, 1.25rem);
     margin: 0;
   }
 
   .duration {
     color: #71717a;
-    font-size: 0.9rem;
+    font-size: clamp(0.85rem, 2vw, 0.9rem);
   }
 
   .work-item {
     margin-bottom: 3rem;
+    max-width: 800px;
   }
 
   ul {
@@ -87,12 +90,46 @@ const formatDuration = (duration: WorkItem['duration']) => {
     color: #a1a1aa;
     margin-bottom: 0.75rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    line-height: 1.5;
+    font-size: clamp(0.95rem, 2.5vw, 1rem);
   }
 
   li::before {
     content: "•";
     color: #525252;
     margin-right: 1rem;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    section {
+      margin-top: 4rem;
+    }
+
+    .work-header {
+      gap: 0.75rem;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      padding-right: 0.5rem;
+    }
+
+    li::before {
+      margin-right: 0.75rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    section {
+      margin-top: 3rem;
+    }
+
+    .work-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
 </style>

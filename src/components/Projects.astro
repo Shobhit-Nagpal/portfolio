@@ -76,10 +76,11 @@ const projects: Project[] = [
 <style>
   section {
     margin-top: 6rem;
+    padding: 0 1rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: clamp(1.75rem, 4vw, 2rem);
     color: #ffffff;
     margin-bottom: 2rem;
   }
@@ -88,13 +89,14 @@ const projects: Project[] = [
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-  } 
+    max-width: 800px;
+  }
 
   .project-card {
-    padding: 1.5rem;
+    padding: clamp(1.25rem, 3vw, 1.5rem);
     border: 1px solid #27272a;
     border-radius: 8px;
-    transition: all 0.2s;
+    transition: all 0.2s ease;
   }
 
   .project-card:hover {
@@ -105,14 +107,15 @@ const projects: Project[] = [
 
   h3 {
     color: #ffffff;
-    font-size: 1.25rem;
-    margin: 0 0 1rem 0;
+    font-size: clamp(1.1rem, 3vw, 1.25rem);
+    margin: 0 0 0.75rem 0;
   }
 
   p {
     color: #a1a1aa;
     margin: 0 0 1.5rem 0;
-    line-height: 1.5;
+    line-height: 1.6;
+    font-size: clamp(0.95rem, 2.5vw, 1rem);
   }
 
   .tech-stack {
@@ -127,22 +130,50 @@ const projects: Project[] = [
     color: #a1a1aa;
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
-    font-size: 0.875rem;
+    font-size: clamp(0.75rem, 2vw, 0.875rem);
+    white-space: nowrap;
   }
 
   .project-links {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
   }
 
   .project-links a {
     color: #a1a1aa;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: clamp(0.85rem, 2vw, 0.9rem);
     transition: color 0.2s;
+    padding: 0.25rem 0;
   }
 
   .project-links a:hover {
     color: #ffffff;
+  }
+
+  @media (max-width: 768px) {
+    section {
+      margin-top: 4rem;
+    }
+
+    .tech-stack {
+      gap: 0.4rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .tech-tag {
+      padding: 0.2rem 0.6rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .project-card {
+      padding: 1.25rem 1rem;
+    }
+
+    .project-links {
+      gap: 0.75rem;
+    }
   }
 </style>
