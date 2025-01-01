@@ -1,0 +1,21 @@
+---
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import Introduction from '../components/Introduction.astro';
+import Work from '../components/Work.astro';
+import Projects from '../components/Projects.astro';
+import OpenSource from '../components/OpenSource.astro';
+import Layout from '../layouts/Layout.astro';
+import MaxWidthWrapper from '../layouts/MaxWidthWrapper.astro';
+---
+
+<Layout>
+  <MaxWidthWrapper>
+    <Navbar />
+    <Introduction />
+    <Work />
+    <Projects />
+    <OpenSource />
+  </MaxWidthWrapper>
+  <Footer />
+</Layout>
