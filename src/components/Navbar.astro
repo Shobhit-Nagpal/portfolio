@@ -3,7 +3,7 @@
 <nav>
   <div class="nav-links">
     <a href="/" class="nav-link">Home</a>
-    <a href="https://blog.shobhitnagpal.com" target="_blank" class="nav-link">Blog</a>
+    <a href="https://blog.shobhitnagpal.com" target="_blank" class="nav-link">Blog ↗</a>
   </div>
   <div class="social-links">
     <a href="https://github.com/Shobhit-Nagpal" class="social-link" aria-label="GitHub">
@@ -30,6 +30,10 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #27272a;
+    position: sticky;
+    top: 0;
+    background-color: #1C1C1E;
+    z-index: 100;
   }
 
   .nav-links {
@@ -42,6 +46,7 @@
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.2s;
+    padding: 0.5rem;
   }
 
   .social-links {
@@ -64,6 +69,18 @@
     nav {
       flex-direction: column;
       gap: 1rem;
+      padding: 1rem 0.5rem;
+    }
+
+    .social-links {
+      width: 100%;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .icon {
+      width: 1.1rem;
+      height: 1.1rem;
     }
   }
 </style>
