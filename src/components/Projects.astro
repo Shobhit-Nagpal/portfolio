@@ -1,4 +1,148 @@
 ---
+interface Project {
+  title: string;
+  description: string;
+  stack: string[];
+  repo: string;
+  demo?: string;
+}
+
+const projects: Project[] = [
+  {
+    title: "Memer",
+    description: "Your one-stop meme workshop: Search, collect, create.",
+    stack: ["Next.js", "Prisma", "MongoDB", "TypeScript", "UploadThing", "ShadCN UI", "Tailwind", "Clerk.js"],
+    repo: "https://github.com/halfloafhq/memer",
+    demo: "https://memer.shobhitnagpal.com"
+  },
+  {
+    title: "GSSoC Stats Generator",
+    description: "Generate your GSSoC stats and share it on socials. Generated over 1000+ certificates for contributors.",
+    stack: ["Next.js", "TypeScript", "Node Canvas", "ShadCN UI", "Tailwind"],
+    repo: "https://github.com/Shobhit-Nagpal/gssoc-stats-gen",
+    demo: "https://gssoc.shobhitnagpal.com"
+  },
+  {
+    title: "Marksmith.js",
+    description: "npm library to convert Markdown strings to HTML, written in TypeScript.",
+    stack: ["TypeScript", "npm"],
+    repo: "https://github.com/Shobhit-Nagpal/marksmith",
+    demo: "https://www.npmjs.com/package/marksmithjs"
+  },
+  {
+    title: "Keymulate",
+    description: "A mechanical keyboard emulator written in Go.",
+    stack: ["Golang", "Linux"],
+    repo: "https://github.com/halfloafhq/keymulate",
+  },
+  {
+    title: "pgn",
+    description: "Golang module to parse chess PGNs.",
+    stack: ["Golang"],
+    repo: "https://github.com/Shobhit-Nagpal/pgn",
+  },
+  {
+    title: "nvim-rafce",
+    description: " Neovim plugin to create RAFCE snippets.",
+    stack: ["Neovim", "React.js", "Lua"],
+    repo: "https://github.com/Shobhit-Nagpal/nvim-rafce",
+  },
+];
 ---
 
-<div>Projects</div>
+<section>
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    {projects.map((project) => (
+      <div class="project-card">
+        <h3>{project.title}</h3>
+        <p>{project.description}</p>
+        <div class="tech-stack">
+          {project.stack.map((tech) => (
+            <span class="tech-tag">{tech}</span>
+          ))}
+        </div>
+        <div class="project-links">
+          <a href={project.repo} target="_blank" rel="noopener noreferrer">Repository ↗</a>
+          {project.demo && (
+            <a href={project.demo} target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  section {
+    margin-top: 6rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  } 
+
+  .project-card {
+    padding: 1.5rem;
+    border: 1px solid #27272a;
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+
+  .project-card:hover {
+    background-color: #27272a;
+    transform: translateY(-2px);
+    border-color: #4a5bef;
+  }
+
+  h3 {
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+  }
+
+  p {
+    color: #a1a1aa;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.5;
+  }
+
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .tech-tag {
+    background-color: #18181b;
+    color: #a1a1aa;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+  }
+
+  .project-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .project-links a {
+    color: #a1a1aa;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+
+  .project-links a:hover {
+    color: #ffffff;
+  }
+</style>

@@ -1,4 +1,98 @@
 ---
+interface WorkItem {
+  company: string;
+  duration: {
+    start: string;
+    end?: string;
+  };
+  accomplishments: string[];
+}
+
+const workHistory: WorkItem[] = [
+  {
+    company: "SapMen C.",
+    duration: {
+      start: "May 2024",
+    },
+    accomplishments: [
+      "Worked on MailerOne, a mailing SaaS for winners",
+      "Currently working on Upshot",
+      "Built client projects such as Facility Management Software"
+    ]
+  }
+];
+
+const formatDuration = (duration: WorkItem['duration']) => {
+  const end = duration.end || 'Present';
+  return `${duration.start} - ${end}`;
+};
 ---
 
-<div>Work</div>
+<section>
+  <h2>Work</h2>
+  {workHistory.map((work) => (
+    <div class="work-item">
+      <div class="work-header">
+        <h3>{work.company}</h3>
+        <span class="duration">{formatDuration(work.duration)}</span>
+      </div>
+      <ul>
+        {work.accomplishments.map((item) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</section>
+
+<style>
+  section {
+    margin-top: 6rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+
+  .work-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    color: #e4e4e7;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .duration {
+    color: #71717a;
+    font-size: 0.9rem;
+  }
+
+  .work-item {
+    margin-bottom: 3rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    color: #a1a1aa;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+  }
+
+  li::before {
+    content: "•";
+    color: #525252;
+    margin-right: 1rem;
+  }
+</style>
